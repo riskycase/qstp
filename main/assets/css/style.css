@@ -4,7 +4,7 @@ body{
 
 .btn{
     z-index: 2;
-    margin-bottom: 20px !important;
+    margin-bottom: 10px !important;
 }
 @media only screen and (min-width: 1025px) {
     .show-info, .back-btn {
@@ -23,7 +23,9 @@ body{
 }
 .card-description{
     color: white!important;
-    margin-top: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
     text-align: start;
 }
 .card-description strong{
@@ -32,14 +34,14 @@ body{
     font-family: sans-serif;
 }
 .title{
-    color: rgb(220, 6, 38);
+    color: white;
 }
 .page-header{
      width:100%;
 
 }
 .front{
-    box-shadow: 0 0px 10px 3px rgba(247, 28, 28, 0.459) !important;
+    box-shadow: 0 0px 10px 3px rgba(2, 0, 0, 0.459) !important;
 }
 .back{
     box-shadow: 0 0px 10px 3px rgba(2, 247, 255, 0.459) !important;
@@ -55,4 +57,17 @@ body{
 .navbar-collapse .navbar-nav .nav-item .nav-link {
     color: white;
 }
+}
+footer{
+    background-color: rgb(20, 34, 47); 
+    color: white;
+}
+footer a{
+    color: aqua;
+}
+.footer-link a:hover{
+    color: aqua !important;
+}
+.page-header{
+    height: 70vw;
 }
