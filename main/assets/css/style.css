@@ -4,12 +4,17 @@ body{
 
 .btn{
     z-index: 2;
-    margin-bottom: 10px !important;
+    margin-bottom: 25px !important;
 }
 @media only screen and (min-width: 1025px) {
     .show-info, .back-btn {
         display: none;
     }
+  }
+  @media only screen and (max-width: 1025px){
+      .saidl{
+          height: 380px;
+      }
   }
 .main-raised{
     color: white;
@@ -70,4 +75,7 @@ footer a{
 }
 .page-header{
     height: 70vw;
+}
+.Wallstreet{
+    padding: 20px !important;
 }
