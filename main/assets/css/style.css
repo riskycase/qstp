@@ -9,16 +9,7 @@ body{
     margin-top: auto;
     margin-bottom: 30px !important;
 }
-@media only screen and (min-width: 1025px) {
-    .show-info, .back-btn {
-        display: none;
-    }
-  }
-  @media only screen and (max-width: 1025px){
-      .front-background,.card-background{
-          height: 390px;
-      }
-  }
+
 .main-raised{
     color: white;
     z-index: 4;
@@ -31,18 +22,32 @@ body{
 }
 .card-description{
     color: white!important;
-    margin-top: px;
-    margin-bottom: 0px;
     height: auto;
     text-align: start;
     overflow-y: scroll;
     line-height: 20px;
-    padding: 25px !important;
-    max-height: 300px;
+    margin: 25px !important;
+    max-height: 220px;
 }
 .card-description::-webkit-scrollbar {
     display: none; 
 }
+@media only screen and (min-width: 1025px) {
+    .show-info, .back-btn {
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 1025px){
+      .front-background,.card-background{
+          height: 390px;
+      }
+      .footer{
+          margin-bottom: 15px !important;
+      }
+      .card-description{
+        max-height: 280px;
+      }
+  }
 
 .card-description strong{
     color: rgb(2, 247, 255) !important;
