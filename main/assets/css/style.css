@@ -13,7 +13,7 @@ body{
   }
   @media only screen and (max-width: 1025px){
       .front-background,.card-background{
-          height: 420px;
+          height: 390px;
       }
   }
 .main-raised{
@@ -28,10 +28,19 @@ body{
 }
 .card-description{
     color: white!important;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: px;
+    margin-bottom: 0px;
     height: auto;
     text-align: start;
+    overflow-y: scroll;
+    line-height: 20px;
+}
+.card-description::-webkit-scrollbar {
+    display: none;
+    
+}
+.card-body{
+    padding: 25px !important;
 }
 .card-description strong{
     color: rgb(2, 247, 255) !important;
