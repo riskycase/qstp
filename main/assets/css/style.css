@@ -4,7 +4,10 @@ body{
 
 .btn{
     z-index: 2;
-    margin-bottom: 25px !important;
+}
+.footer{
+    margin-top: auto;
+    margin-bottom: 30px !important;
 }
 @media only screen and (min-width: 1025px) {
     .show-info, .back-btn {
@@ -34,14 +37,14 @@ body{
     text-align: start;
     overflow-y: scroll;
     line-height: 20px;
+    padding: 25px !important;
+    max-height: 300px;
+   
 }
 .card-description::-webkit-scrollbar {
-    display: none;
-    
+    display: none; 
 }
-.card-body{
-    padding: 25px !important;
-}
+
 .card-description strong{
     color: rgb(2, 247, 255) !important;
     font-size: 16px !important;
