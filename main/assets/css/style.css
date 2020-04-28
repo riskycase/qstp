@@ -71,7 +71,7 @@ body{
 }
 .brand {
     text-align: center; 
-    margin-top: 150px;
+    margin-top: 200px;
 }
 #myVideo {
     position: fixed;
@@ -82,7 +82,14 @@ body{
     min-height: 100%;
   }
 .association {
-    margin-top: 150px;
+    margin-top: 20px;
+}
+.association-icons {
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 200px; 
+    display: flex; 
+    justify-content:center;
 }
 .front{
     box-shadow: 0 0px 10px 3px rgba(2, 0, 0, 0.459) !important;
@@ -98,9 +105,14 @@ body{
     color: white !important;  
 }
 @media (max-width: 991px){
-
+.association-icons {
+        margin-bottom: 150px; 
+}
+.brand {
+        margin-top: 150px;
+}
 .association {
-    margin-top: 60px;
+    margin-top: 10px;
 }
 .navbar-collapse::after {
     background-color:rgb(20, 34, 47);
