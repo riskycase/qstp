@@ -9,10 +9,10 @@ body{
     margin-top: auto;
     margin-bottom: 30px !important;
 }
-.section p{
+#mainInfo p{
     font-size: 16px;
 }
-.section a{
+#mainInfo a{
     color: rgb(2, 247, 255) !important;
 }
 .main-raised{
