@@ -1,62 +1,115 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <title>QSTP info</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <!--     Fonts and icons     -->
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
-  <!-- Material Kit CSS -->
-  <link href="assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
-  <link href="assets/css/style.css" rel="stylesheet" />
-</head>
+  <head>
+    <title>QSTP 2020</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <!-- Material Kit CSS -->
+    <link href="assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
 
-<body onresize="win()" onload="win()">
-    <!--Top Navbar -->
-  <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg"  color-on-scroll="100">
-  <div class="container">
-    <div class="navbar-translate">
-      <a class="navbar-brand" href="#">QSTP 2020</a>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
+  <body onresize="win()" onload="win()">
+      <!--Top Navbar -->
+    <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg"  color-on-scroll="100">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="#">QSTP 2020</a>
 
-    <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="index1.html" class="nav-link">
-                <i class="material-icons">home</i> HOME
-            </a>
-          </li>
-          <li class="nav-item">
-              <a href="info.html" class="nav-link">
-                  <i class="material-icons">info</i> INFO
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">
+                  <i class="material-icons">home</i> HOME
               </a>
             </li>
-        </ul>
-    </div>
-</div>
+            <li class="nav-item">
+                <a href="info.html" class="nav-link">
+                    <i class="material-icons">info</i> INFO
+                </a>
+              </li>
+          </ul>
+      </div>
+  </div>
 </nav>
 
 <!-- paralax header -->
-<div class="page-header " data-parallax="true" style="background-image: url('images/QSTP quark.jpg');">
-</div>
-  <div class="main main-raised">
+    <div class="page-header header-filter clear-filter" data-parallax="true" style="background-image: url('assets/img/QSTP-quark.jpg');  
+    ">
+    <video autoplay muted loop id="myVideo">
+        <source src="assets/video.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
     <div class="container">
-      <div class="section text-center">
-        <h2 class="title">Your main section here</h2>
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <div class="brand">
+              <img src="./assets/img/qstp_logo_1.png" style="width: 50%; min-width: 250px;">
+              <h3 class="title" style="text-align: center;">Quark Summer Technical Projects</h3>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row association">
+            <div class="col-md-8 ml-auto mr-auto">
+              <div style="text-align: center; margin-top: 0px;">
+                <img src="./assets/img/quark_logo.png" style="width: 30%; min-width: 150px;">
+              </div>
+              <div class="brand" style="text-align: center; margin-top: 20px;">
+                in association with:
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <div class="brand" style="text-align: center; margin-top: 0px; margin-bottom: 100px;">
+                <img src="./assets/img/google.png" style="height: 30px; margin: 10px;">
+                <img src="./assets/img/wt.png" style="height: 70px; margin: 10px;">
+              </div>
+            </div>
+          </div>
       </div>
+      
     </div>
-  </div>
+<!-- Main section -->
+<div class="main main-raised">
+    <div class="container">
+        <div class="section">
+            <blockquote class="blockquote text-center">
+                <h3>“ A dull mind gets bored easily but, a curious mind expands forever ”</h3>
+              </blockquote>
+            <br>
+            <p>
+                Quark Summer Technical Projects (QSTP) in association with GDG (Google Developer Group) & WTM (Women Techmakers) New Delhi, is back in its 7th edition with a total of 21 projects spanning varied areas of study. For the first time, QSTP is offering projects in fields like Verilog, AR and Consultancy among others. Being conducted in a completely online mode, QSTP offers a great opportunity to learn and interact with the experienced mentors from BITS Pilani, Goa at the convenience of one's own. 
+            </p><br>
+            <p>1.  QSTP is <strong>Open for participation for Students from any College across the Nation irrespective of their year of study </strong>and all projects are <strong>Free of Cost.</strong>
+            </p>
+            <p>2.  Completion of the project/course will award the participant with a <strong>'Certificate of Completion'.</strong>Moreover, the top participants in each course shall be awarded with a <strong>'Certificate of Excellence'.  Certificates will be certified by GDG & WTM New Delhi and the Faculty Member.</strong>
+            </p>
+            <p>
+                3. Last Date of Registration for the Projects is <strong>8th May.</strong>
+            </p>
+            <br>
+            <p>For any queries, mail at <a href="mailto:gulatitanishq@gmail.com" target="_blank"> gulatitanishq@gmail.com</a> or WhatsApp at 9667444063.</p>
+            <br>
+        </div>
+    </div>
+</div>
   <footer class="footer footer-default" >
     <div class="container">
       <div class="copyright float-right">

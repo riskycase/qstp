@@ -9,7 +9,12 @@ body{
     margin-top: auto;
     margin-bottom: 30px !important;
 }
-
+.section p{
+    font-size: 16px;
+}
+.section a{
+    color: rgb(2, 247, 255) !important;
+}
 .main-raised{
     color: white;
     z-index: 4;
@@ -81,6 +86,9 @@ body{
 .front{
     box-shadow: 0 0px 10px 3px rgba(2, 0, 0, 0.459) !important;
 }
+#commudle .front{
+    box-shadow: 0 0px 10px 3px rgba(9, 241, 86, 0.7) !important;
+}
 .back{
     box-shadow: 0 0px 10px 3px rgba(2, 247, 255, 0.459) !important;
 }
@@ -120,4 +128,7 @@ footer a{
 
 .Wallstreet{
     padding: 20px !important;
+}
+.card-title small{
+    color: rgba(255, 255, 255, 1) !important;
 }
