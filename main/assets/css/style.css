@@ -22,7 +22,7 @@ body{
     background-color: #220A3F;  
 }
 .main-content{
-    background: #0d1620;
+    background: #15101F;
     margin-top: -50px;
 }
 .card-description{
@@ -95,10 +95,10 @@ body{
     box-shadow: 0 0px 10px 3px rgba(2, 0, 0, 0.459) !important;
 }
 #commudle .front{
-    box-shadow: 0 0px 10px 3px rgba(9, 241, 86, 0.7) !important;
+    box-shadow: 0 0px 10px 3px !important;
 }
 .back{
-    box-shadow: 0 0px 10px 3px rgba(2, 247, 255, 0.459) !important;
+    box-shadow: 0 0px 10px 3px #6B1994 !important;
 }
 .navbar{
     background-color: #220A3F  !important;
@@ -115,7 +115,7 @@ body{
     margin-top: 10px;
 }
 .navbar-collapse::after {
-    background-color:rgb(20, 34, 47);
+    background-color:#15101F;
 }
 .navbar-collapse .navbar-nav .nav-item .nav-link {
     color: white;
@@ -125,14 +125,14 @@ body{
     background-color: #fff;
 }
 footer{
-    background-color: rgb(20, 34, 47); 
+    background-color: #220A3F; 
     color: white;
 }
 footer a{
-    color: aqua;
+    color: #FF38F8;
 }
 .footer-link a:hover{
-    color: aqua !important;
+    color: #FF38F8 !important;
 }
 
 .page-header {
