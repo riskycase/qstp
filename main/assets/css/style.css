@@ -1,5 +1,5 @@
 body{
-    background-color:#0d1620;;
+    background-color:#15101F;;
 }
 
 .btn{
@@ -19,7 +19,7 @@ body{
     color: white;
     z-index: 4;
     border-radius: 18px;
-    background-color: #220A3F;  
+    background-color: #1E0329;  
 }
 .main-content{
     background: #15101F;
@@ -101,7 +101,7 @@ body{
     box-shadow: 0 0px 10px 3px #6B1994 !important;
 }
 .navbar{
-    background-color: #220A3F  !important;
+    background-color: #1E0329  !important;
     color: white !important;  
 }
 @media (max-width: 991px){
@@ -125,7 +125,7 @@ body{
     background-color: #fff;
 }
 footer{
-    background-color: #220A3F; 
+    background-color: #1E0329; 
     color: white;
 }
 footer a{
