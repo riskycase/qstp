@@ -13,13 +13,13 @@ body{
     font-size: 16px;
 }
 #mainInfo a{
-    color: rgb(2, 247, 255) !important;
+    color: #FF38F8!important;
 }
 .main-raised{
     color: white;
     z-index: 4;
     border-radius: 18px;
-    background-color: rgb(20, 34, 47);  
+    background-color: #220A3F;  
 }
 .main-content{
     background: #0d1620;
@@ -55,7 +55,7 @@ body{
   }
 
 .card-description strong{
-    color: rgb(2, 247, 255) !important;
+    color: #FF38F8 !important;
     font-size: 16px !important;
     font-family: sans-serif;
 }
@@ -101,7 +101,7 @@ body{
     box-shadow: 0 0px 10px 3px rgba(2, 247, 255, 0.459) !important;
 }
 .navbar{
-    background-color: rgb(20, 34, 47) !important;
+    background-color: #220A3F  !important;
     color: white !important;  
 }
 @media (max-width: 991px){
