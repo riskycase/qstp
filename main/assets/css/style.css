@@ -1,5 +1,5 @@
 body{
-    background-color:#0d1620;;
+    background-color:#15101F;;
 }
 
 .btn{
@@ -13,16 +13,16 @@ body{
     font-size: 16px;
 }
 #mainInfo a{
-    color: rgb(2, 247, 255) !important;
+    color: #FF38F8!important;
 }
 .main-raised{
     color: white;
     z-index: 4;
     border-radius: 18px;
-    background-color: rgb(20, 34, 47);  
+    background-color: #1E0329;  
 }
 .main-content{
-    background: #0d1620;
+    background: #15101F;
     margin-top: -50px;
 }
 .card-description{
@@ -55,7 +55,7 @@ body{
   }
 
 .card-description strong{
-    color: rgb(2, 247, 255) !important;
+    color: #FF38F8 !important;
     font-size: 16px !important;
     font-family: sans-serif;
 }
@@ -95,13 +95,13 @@ body{
     box-shadow: 0 0px 10px 3px rgba(2, 0, 0, 0.459) !important;
 }
 #commudle .front{
-    box-shadow: 0 0px 10px 3px rgba(9, 241, 86, 0.7) !important;
+    box-shadow: 0 0px 10px 3px !important;
 }
 .back{
-    box-shadow: 0 0px 10px 3px rgba(2, 247, 255, 0.459) !important;
+    box-shadow: 0 0px 10px 3px #6B1994 !important;
 }
 .navbar{
-    background-color: rgb(20, 34, 47) !important;
+    background-color: #1E0329  !important;
     color: white !important;  
 }
 @media (max-width: 991px){
@@ -115,7 +115,7 @@ body{
     margin-top: 10px;
 }
 .navbar-collapse::after {
-    background-color:rgb(20, 34, 47);
+    background-color:#15101F;
 }
 .navbar-collapse .navbar-nav .nav-item .nav-link {
     color: white;
@@ -125,14 +125,14 @@ body{
     background-color: #fff;
 }
 footer{
-    background-color: rgb(20, 34, 47); 
+    background-color: #1E0329; 
     color: white;
 }
 footer a{
-    color: aqua;
+    color: #FF38F8;
 }
 .footer-link a:hover{
-    color: aqua !important;
+    color: #FF38F8 !important;
 }
 
 .page-header {
@@ -152,3 +152,83 @@ footer .footer{
 #security{
     padding: 5px;
 }
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color:#15101F;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: white;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: white;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #1E0328;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  color: white;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/*Button positioning*/
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #15101F;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/*background to dot hover*/
+.active, .dot:hover {
+  background-color: #FF38F8;
+}
+/*text tweaks*/
+q {font-style: italic;}
+.author {color: #FF38F8;}
