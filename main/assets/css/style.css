@@ -1,5 +1,9 @@
 body{
-    background-color:#15101F;;
+    --primary: #FF38F8;
+    --primary-darker: var(--primary-darker);
+    --primary-background: #1E0329;
+    --primary-background-darker: #15101F;
+    background-color:var(--primary-background-darker);
 }
 
 .btn{
@@ -13,16 +17,16 @@ body{
     font-size: 16px;
 }
 #mainInfo a{
-    color: #FF38F8!important;
+    color: var(--primary)!important;
 }
 .main-raised{
     color: white;
     z-index: 4;
     border-radius: 18px;
-    background-color: #1E0329;  
+    background-color: var(--primary-background);  
 }
 .main-content{
-    background: #15101F;
+    background: var(--primary-background-darker);
     margin-top: -50px;
 }
 .card-description{
@@ -55,7 +59,7 @@ body{
   }
 
 .card-description strong{
-    color: #FF38F8 !important;
+    color: var(--primary) !important;
     font-size: 16px !important;
     font-family: sans-serif;
 }
@@ -164,10 +168,10 @@ body{
     box-shadow: 0 0px 10px 3px !important;
 }
 .back{
-    box-shadow: 0 0px 10px 3px #6B1994 !important;
+    box-shadow: 0 0px 10px 3px var(--primary-darker) !important;
 }
 .navbar{
-    background-color: #1E0329  !important;
+    background-color: var(--primary-background)  !important;
     color: white !important;  
 }
 @media (max-width: 991px){
@@ -181,7 +185,7 @@ body{
     margin-top: 10px;
 }
 .navbar-collapse::after {
-    background-color:#15101F;
+    background-color:var(--primary-background-darker);
 }
 .navbar-collapse .navbar-nav .nav-item .nav-link {
     color: white;
@@ -191,14 +195,14 @@ body{
     background-color: #fff;
 }
 footer{
-    background-color: #1E0329; 
+    background-color: var(--primary-background); 
     color: white;
 }
 footer a{
-    color: #FF38F8;
+    color: var(--primary);
 }
 .footer-link a:hover{
-    color: #FF38F8 !important;
+    color: var(--primary) !important;
 }
 
 .page-header {
@@ -221,7 +225,7 @@ footer .footer{
 ::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color:#15101F;
+	background-color:var(--primary-background-darker);
 }
 
 ::-webkit-scrollbar
@@ -279,7 +283,7 @@ body {font-family: Verdana, sans-serif; margin:0}
 .dot-container {
     text-align: center;
     padding: 20px;
-    background: #15101F;
+    background: var(--primary-background-darker);
 }
 .dot {
   cursor: pointer;
@@ -293,8 +297,9 @@ body {font-family: Verdana, sans-serif; margin:0}
 }
 /*background to dot hover*/
 .active, .dot:hover {
-  background-color: #FF38F8;
+  background-color: var(--primary);
 }
 /*text tweaks*/
 q {font-style: italic;}
-.author {color: #FF38F8;}
+.author {color: var(--primary);}
+small {color: white;}
